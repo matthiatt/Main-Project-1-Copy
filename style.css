@@ -1,0 +1,71 @@
+#company-name{
+font-family: 'Dancing Script', cursive;
+font-size: xx-large;
+font-weight: bold;
+}
+
+#company-info, #suggested{
+    background-color: lightskyblue;
+    padding: 15px;
+}
+
+#logo{
+    margin: 0 auto;
+}
+h1, h2{
+    text-align: center;
+    font-weight:bold;
+
+}
+
+h1{
+    font-size: xx-large;
+}
+h2{
+    font-size: x-large;
+}
+
+
+button{
+    margin: 20px 0 10px 0;
+}
+
+#photo-cont{
+    position: relative;
+}
+
+#photo-caption{
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+    color: white;
+    font-size: large;
+}
+
+.white-text{
+    color: white;
+}
+
+.card{
+    position: relative;
+}
+
+.heart-icon{
+    color: red;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    z-index: 2;
+}
+
+.right-arrow{
+    color: black;
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    z-index: 2;
+}
+
+#food-heart-full, #drink-heart-full{
+    display: none;
+}
